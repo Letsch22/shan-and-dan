@@ -17,12 +17,14 @@ body {
 }
 
 .title {
-    font-family: 'Almendra SC', serif;
-    color: #867512;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    letter-spacing: 5px;
 }
 
 .subtitle {
-    font-family: 'Almendra', serif;
-    font-style: italic;
-    color: #867512;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 6px;
 }
