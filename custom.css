@@ -18,9 +18,11 @@ body {
 
 .title {
     font-family: 'Almendra SC', serif;
+    color: #867512;
 }
 
 .subtitle {
     font-family: 'Almendra', serif;
     font-style: italic;
+    color: #867512;
 }
