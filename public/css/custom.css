@@ -1,8 +1,20 @@
 body {
     background-color: #FAF9F6;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
+#schedule {
+    background-color: #C98686;
+}
+
+#travel {
+    background-color: #C98686;
+}
+
+#lodging {
+    background-color: #C98686;
+}
+/*
 .section {
     height: 100%;
 }
@@ -14,6 +26,36 @@ body {
 .columns {
     height: 100%;
     display: flex;
+} */
+
+.custom-button {
+    padding: 20px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    background-color: #FAF9F6 !important;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    color: black !important;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.custom-button:active {
+    background-color: #ebebeb !important;
+}
+
+p {
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: underline dotted;
 }
 
 .title {
@@ -23,7 +65,6 @@ body {
 }
 
 .subtitle {
-    font-family: 'Baskervville', serif;
     font-weight: bold;
     color: black;
     letter-spacing: 6px;
