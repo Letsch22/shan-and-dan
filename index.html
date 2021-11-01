@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,116 +13,209 @@
     <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="/public/css/custom.css">
+    <script src="https://kit.fontawesome.com/d6cd6b04cb.js" crossorigin="anonymous"></script>
   </head>
   <body>
-  <section class="section">
-    <div class="container has-text-centered">
-      <div class="columns is-vcentered">
-        <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
-        <div class="column">
-          <figure class="image is-square image-blurred-edge">
-            <img src="/public/images/hero-painted.jpg" title="Art by Sarah Letscher" alt="A painting depicting the happy couple">
-          </figure>
-          <h1 class="title is-1">
-            SHANNON & DANIEL
-          </h1>
-          <p class="subtitle is-6">
-            june 11, 2022 | minneapolis
-          </p>
-        </div>
-        <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
+    <!-- TODO: Make navbar fit on mobile -->
+    <nav id="navbar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#home" data-target="home">HOME</a>
+        <a class="navbar-item" href="#schedule" data-target="schedule">SCHEDULE</a>
+        <a class="navbar-item" href="#travel" data-target="travel">TRAVEL</a>
+        <a class="navbar-item" href="#lodging"data-target="lodging">LODGING</a>
       </div>
-    </div>
-  </section>
-  <section id="schedule" class="section">
-    <div class="container has-text-centered">
-      <div class="columns is-vcentered">
-        <div class="column"></div>
-        <div class="column">
-          <h1 class="title">SCHEDULE</h1>
-        </div>
-        <div class="column"></div>
-      </div>
-      <div class="columns is-vcentered">
-        <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
-        <div class="column is-narrow">
-          <p class="subtitle">Ceremony<br/></p>
-          <p>3:00 pm</p>
-        </div>
-        <div class="column is-narrow">
-          <p class="subtitle is-1">~</p>
-        </div>
-        <div class="column">
-          <p class="subtitle">Chapel of St. Thomas Aquinas</p>
-          <p><a href="https://goo.gl/maps/n77xpng7qTssoMMA8" target="_blank">2115 Summit Avenue, St. Paul, MN 55105</a></p>
-        </div>
-        <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
-      </div>
-      <div class="columns is-vcentered">
-        <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
-        <div class="column is-narrow">
-          <p class="subtitle">Reception<br/></p>
-          <p>5:30 pm</p>
-        </div>
-        <div class="column is-narrow">
-          <p class="subtitle is-1">~</p>
-        </div>
-        <div class="column">
-          <p class="subtitle">Mill City Museum</p>
-          <p><a href="https://goo.gl/maps/KSpX1LX5eeQTBjou8" target="_blank">704 South Second Street, Minneapolis, MN 55401</a></p>
-        </div>
-        <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section id="travel" class="section">
-    <div class="container has-text-centered">
-      <div class="columns is-vcentered">
-        <div class="column"></div>
-        <div class="column">
-          <h1 class="title">TRAVEL</h1>
-        </div>
-        <div class="column"></div>
-      </div>
-      <div class="columns is-vcentered">
-        <div class="column">
-          <p class="subtitle">Minneapolis-St. Paul International Airport<br/>(MSP)</p>
-          <p><a href="https://www.mspairport.com/directions/ground-transportation/app-based-ride-services" target="_blank">Uber/Lyft pickup locations</a></p>
-          <p><a href="https://goo.gl/maps/GCrnPsnEbqVmtGza8" target="_blank">METRO Blue Line directions to hotels</a></p>
+    </nav>
+    <section id="home" class="section">
+      <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
+          <div class="column">
+            <figure class="image is-square image-blurred-edge">
+              <img src="/public/images/hero-painted.jpg" title="Art by Sarah Letscher" alt="A painting depicting the happy couple">
+            </figure>
+            <h1 class="title is-1">
+              SHANNON & DANIEL
+            </h1>
+            <p class="subtitle is-6">
+              june 11, 2022 | minneapolis
+            </p>
+          </div>
+          <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="lodging" class="section">
-    <div class="container has-text-centered">
-      <div class="columns is-vcentered">
-        <div class="column"></div>
-        <div class="column">
-          <h1 class="title">LODGING</h1>
-          <p>We have room blocks at two hotels located in the Mill District of Minneapolis, just blocks from the reception venue. Both hotels are located at the same intersection of South Third Street and Park Avenue.</p>
+    </section>
+    <svg class="custom-divider-main" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <path d="M-5 100 Q 0 20 5 100 Z
+          M0 100 Q 5 0 10 100
+          M5 100 Q 10 30 15 100
+          M10 100 Q 15 10 20 100
+          M15 100 Q 20 30 25 100
+          M20 100 Q 25 -10 30 100
+          M25 100 Q 30 10 35 100
+          M30 100 Q 35 30 40 100
+          M35 100 Q 40 10 45 100
+          M40 100 Q 45 50 50 100
+          M45 100 Q 50 20 55 100
+          M50 100 Q 55 40 60 100
+          M55 100 Q 60 60 65 100
+          M60 100 Q 65 50 70 100
+          M65 100 Q 70 20 75 100
+          M70 100 Q 75 45 80 100
+          M75 100 Q 80 30 85 100
+          M80 100 Q 85 20 90 100
+          M85 100 Q 90 50 95 100
+          M90 100 Q 95 25 100 100
+          M95 100 Q 100 15 105 100 Z">
+      </path>
+    </svg>
+    <section id="schedule" class="section">
+      <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column"></div>
+          <div class="column">
+            <h1 class="title">SCHEDULE</h1>
+          </div>
+          <div class="column"></div>
         </div>
-        <div class="column"></div>
+        <div class="columns is-vcentered">
+          <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
+          <div class="column">
+            <p class="subtitle">3:00 pm <i class="fas fa-church"></i> Ceremony</p>
+            <p>Chapel of St. Thomas Aquinas</p>
+            <p><a href="https://goo.gl/maps/n77xpng7qTssoMMA8" target="_blank">2115 Summit Avenue, St. Paul</a></p>
+            <br/>
+            <p class="subtitle">5:30 pm <i class="fas fa-glass-cheers"></i> Reception</p>
+            <p>Mill City Museum</p>
+            <p><a href="https://goo.gl/maps/KSpX1LX5eeQTBjou8" target="_blank">704 South Second Street, Minneapolis</a></p>
+          </div>
+          <div class="column is-hidden-touch is-one-fifth-desktop is-one-quarter-widescreen"></div>
+        </div>
       </div>
-      <div class="columns is-vcentered">
-        <div class="column">
-          <p class="subtitle">Canopy by Hilton<br/><small>Minneapolis Mill District</small></p>
-          <p><a href="https://goo.gl/maps/6C4RJgHapBLPapLn8" target="_blank">708 South Third Street, Minneapolis, MN 55415</a></p>
-          <p>One King: $169 per night | Two Queens: $189 per night</p>
-          <p>Rates available until May 9</p>
-          <br/>
-          <p><a class="button custom-button" href="https://group.canopybyhilton.com/KraemerLetscherWedding" target="_blank">Book Here</a></p>
+    </section>
+    <svg class="custom-divider-secondary" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <path d="M-5 100 Q 0 20 5 100 Z
+          M0 100 Q 5 0 10 100
+          M5 100 Q 10 30 15 100
+          M10 100 Q 15 10 20 100
+          M15 100 Q 20 30 25 100
+          M20 100 Q 25 -10 30 100
+          M25 100 Q 30 10 35 100
+          M30 100 Q 35 30 40 100
+          M35 100 Q 40 10 45 100
+          M40 100 Q 45 50 50 100
+          M45 100 Q 50 20 55 100
+          M50 100 Q 55 40 60 100
+          M55 100 Q 60 60 65 100
+          M60 100 Q 65 50 70 100
+          M65 100 Q 70 20 75 100
+          M70 100 Q 75 45 80 100
+          M75 100 Q 80 30 85 100
+          M80 100 Q 85 20 90 100
+          M85 100 Q 90 50 95 100
+          M90 100 Q 95 25 100 100
+          M95 100 Q 100 15 105 100 Z">
+      </path>
+    </svg>
+    <section id="travel" class="section">
+      <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column"></div>
+          <div class="column">
+            <h1 class="title">TRAVEL</h1>
+          </div>
+          <div class="column"></div>
         </div>
-        <div class="column">
-          <p class="subtitle">Radisson RED<br/><small>Minneapolis Downtown</small></p>
-          <p><a href="https://goo.gl/maps/1JvWo8DV7pc58LFW8" target="_blank">609 South Third Street, Minneapolis, MN 55415</a></p>
-          <p>One King: $119 per night | Two Queens: $119 per night</p>
-          <p>Rates available until May 11</p>
-          <br/>
-          <p><a class="button custom-button" href="https://group.canopybyhilton.com/KraemerLetscherWedding" target="_blank">Book Here</a></p>
+        <div class="columns is-vcentered">
+          <div class="column">
+            <p class="subtitle">MSP <i class="fas fa-plane"></i> International Airport</i></p>
+            <p><a href="https://www.mspairport.com/directions/ground-transportation/app-based-ride-services" target="_blank">Uber/Lyft pickup locations</a></p>
+            <p><a href="https://goo.gl/maps/GCrnPsnEbqVmtGza8" target="_blank">METRO Blue Line directions to hotels</a></p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <svg class="custom-divider-main" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <path d="M-5 100 Q 0 20 5 100 Z
+          M0 100 Q 5 0 10 100
+          M5 100 Q 10 30 15 100
+          M10 100 Q 15 10 20 100
+          M15 100 Q 20 30 25 100
+          M20 100 Q 25 -10 30 100
+          M25 100 Q 30 10 35 100
+          M30 100 Q 35 30 40 100
+          M35 100 Q 40 10 45 100
+          M40 100 Q 45 50 50 100
+          M45 100 Q 50 20 55 100
+          M50 100 Q 55 40 60 100
+          M55 100 Q 60 60 65 100
+          M60 100 Q 65 50 70 100
+          M65 100 Q 70 20 75 100
+          M70 100 Q 75 45 80 100
+          M75 100 Q 80 30 85 100
+          M80 100 Q 85 20 90 100
+          M85 100 Q 90 50 95 100
+          M90 100 Q 95 25 100 100
+          M95 100 Q 100 15 105 100 Z">
+      </path>
+    </svg>
+    <section id="lodging" class="section">
+      <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column"></div>
+          <div class="column">
+            <h1 class="title">LODGING</h1>
+            <p>We have room blocks at two hotels located in the Mill District of Minneapolis, just blocks from the reception venue. Both hotels are located at the same intersection of South Third Street and Park Avenue.</p>
+          </div>
+          <div class="column"></div>
+        </div>
+        <div class="columns is-vcentered">
+          <div class="column">
+            <p class="subtitle"><i class="fas fa-hotel"></i><br/>Canopy by Hilton<br/><small>Minneapolis Mill District</small></p>
+            <p><a href="https://goo.gl/maps/6C4RJgHapBLPapLn8" target="_blank">708 South Third Street, Minneapolis</a></p>
+            <p>One King: $169 per night | Two Queens: $189 per night</p>
+            <p>Rates available until May 9</p>
+            <br/>
+            <p><a class="button custom-button" href="https://group.canopybyhilton.com/KraemerLetscherWedding" target="_blank">Book Here</a></p>
+          </div>
+          <div class="column">
+            <p class="subtitle"><i class="fas fa-hotel"></i><br/>Radisson RED<br/><small>Minneapolis Downtown</small></p>
+            <p><a href="https://goo.gl/maps/1JvWo8DV7pc58LFW8" target="_blank">609 South Third Street, Minneapolis</a></p>
+            <p>One King: $119 per night | Two Queens: $119 per night</p>
+            <p>Rates available until May 11</p>
+            <br/>
+            <p><a class="button custom-button" href="https://group.canopybyhilton.com/KraemerLetscherWedding" target="_blank">Book Here</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg class="custom-divider-main custom-divider-footer" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <path d="M0 0 Q 2.5 40 5 0
+          Q 7.5 40 10 0
+          Q 12.5 40 15 0
+          Q 17.5 40 20 0
+          Q 22.5 40 25 0
+          Q 27.5 40 30 0
+          Q 32.5 40 35 0
+          Q 37.5 40 40 0
+          Q 42.5 40 45 0
+          Q 47.5 40 50 0
+          Q 52.5 40 55 0
+          Q 57.5 40 60 0
+          Q 62.5 40 65 0
+          Q 67.5 40 70 0
+          Q 72.5 40 75 0
+          Q 77.5 40 80 0
+          Q 82.5 40 85 0
+          Q 87.5 40 90 0
+          Q 92.5 40 95 0
+          Q 97.5 40 100 0 Z">
+      </path>
+    </svg>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Made with <i class="fas fa-heart"></i> from LA</p>
+      </div>
+    </footer>
+    <script src="/public/js/custom.js"></script>
   </body>
 </html>

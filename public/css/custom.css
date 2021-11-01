@@ -1,6 +1,9 @@
 body {
     background-color: #FAF9F6;
-    /* height: 100vh; */
+}
+
+#home {
+    padding-top: 90px;
 }
 
 #schedule {
@@ -8,7 +11,7 @@ body {
 }
 
 #travel {
-    background-color: #C98686;
+    background-color: #FAF9F6;
 }
 
 #lodging {
@@ -68,4 +71,59 @@ a {
     font-weight: bold;
     color: black;
     letter-spacing: 6px;
+}
+
+.footer {
+    background-color: #333030;
+}
+
+.footer p {
+    color: #444444;
+}
+
+.navbar {
+    background-color: #333030;
+}
+
+.navbar-item {
+    font-family: 'Playfair Display', serif;
+    color: #FAF9F6;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #d6d6d6 !important;
+}
+
+.navbar a:active {
+    color: #d6d6d6 !important;
+}
+
+.navbar a:visited {
+    color: #FAF9F6;
+}
+
+.custom-divider-main {
+    margin-bottom: -1em;
+}
+
+.custom-divider-secondary {
+    margin-bottom: -1em;
+    background-color: #C98686;
+}
+
+.custom-divider-footer {
+    margin-bottom: -1em;
+    background-color: #333030;
+}
+
+.custom-divider-main path {
+    fill: #C98686;
+    stroke: #C98686;
+}
+
+.custom-divider-secondary path {
+    fill: #FAF9F6;
+    stroke: #FAF9F6;
 }
