@@ -123,19 +123,24 @@ a {
     background-color: #90b4f3;
 }
 
+.navbar a:link {
+    background-color: #90b4f3 !important;
+    color: #d6d6d6 !important;
+}
+
 .navbar a:hover {
-    background-color: #90b4f3;
+    background-color: #90b4f3 !important;
     color: #d6d6d6 !important;
 }
 
 .navbar a:active {
-    background-color: #90b4f3;
+    background-color: #90b4f3 !important;
     color: #d6d6d6 !important;
 }
 
 .navbar a:visited {
-    background-color: #90b4f3;
-    color: #FAF9F6;
+    background-color: #90b4f3 !important;
+    color: #FAF9F6 !important;
 }
 
 .custom-divider-main {
