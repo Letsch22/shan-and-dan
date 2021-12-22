@@ -62,7 +62,7 @@ body {
     font-family: 'Baskervville', serif;
     font-weight: bold;
     color: black !important;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .custom-button:hover {
@@ -81,7 +81,7 @@ p {
 
 a {
     color: black;
-    text-decoration: underline dotted;
+    text-decoration-style: dotted;
 }
 
 .title {
@@ -112,7 +112,7 @@ a {
     font-family: 'Playfair Display', serif;
     color: #FAF9F6;
     letter-spacing: 5px;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .navbar-burger {
