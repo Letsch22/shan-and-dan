@@ -93,8 +93,18 @@ a {
 }
 
 .subtitle {
+    font-family: 'Baskervville', serif;
     font-weight: bold;
-    color: black;
+    color: black !important;
+}
+
+.content {
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    color: black !important;
+}
+
+#title .subtitle {
     letter-spacing: 6px;
 }
 
