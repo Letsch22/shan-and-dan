@@ -75,8 +75,7 @@ body {
 }
 
 p {
-    font-family: 'Baskervville', serif;
-    font-weight: bold;
+    font-family: 'Segoe UI', serif;
     color: black;
 }
 
@@ -104,6 +103,13 @@ a {
     color: black !important;
 }
 
+.photo-caption {
+    font-family: 'Segoe UI', serif;
+    font-weight: italic;
+    color: gray !important;
+    font-size: small
+}
+
 #title .subtitle {
     letter-spacing: 6px;
 }
@@ -113,6 +119,7 @@ a {
 }
 
 .footer p {
+    font-family: 'Baskervville', serif;
     color: #444444;
 }
 
