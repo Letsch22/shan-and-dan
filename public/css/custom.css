@@ -171,6 +171,11 @@ a {
     background-color: #90b4f3;
 }
 
+.custom-divider-paragraph {
+    margin-bottom: 2em;
+    background-color: #90b4f3;
+}
+
 .custom-divider-footer {
     margin-bottom: -1em;
     background-color: #90b4f3;
