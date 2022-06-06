@@ -75,7 +75,8 @@ body {
 }
 
 p {
-    font-family: 'Segoe UI', serif;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
     color: black;
 }
 
@@ -104,8 +105,7 @@ a {
 }
 
 .photo-caption {
-    font-family: 'Segoe UI', serif;
-    font-weight: italic;
+    font-family: 'Baskervville', serif;
     color: gray !important;
     font-size: small
 }
@@ -119,7 +119,6 @@ a {
 }
 
 .footer p {
-    font-family: 'Baskervville', serif;
     color: #444444;
 }
 
@@ -168,11 +167,6 @@ a {
 
 .custom-divider-secondary {
     margin-bottom: -1em;
-    background-color: #90b4f3;
-}
-
-.custom-divider-paragraph {
-    margin-bottom: 2em;
     background-color: #90b4f3;
 }
 
