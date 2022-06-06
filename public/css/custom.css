@@ -104,6 +104,12 @@ a {
     color: black !important;
 }
 
+.photo-caption {
+    font-family: 'Baskervville', serif;
+    color: gray !important;
+    font-size: small
+}
+
 #title .subtitle {
     letter-spacing: 6px;
 }
